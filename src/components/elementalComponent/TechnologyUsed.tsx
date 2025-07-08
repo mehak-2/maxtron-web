@@ -73,9 +73,13 @@ const TechnologyUsed = () => {
                       <a
                         href={card.link}
                         className="text-[#7A35C1] hover:text-purple-800"
+                        aria-label={card.linktitle}
                       >
                         <div className="hover:bg-[#F3EBFC] hover:text-[#7A35C1] md:border border-[#7A35C1] flex items-center gap-2 px-4 py-3 rounded-md">
                           <p className="hidden md:block">{card.linktitle}</p>
+                          <span className="sr-only md:hidden">
+                            {card.linktitle}
+                          </span>
                           <svg
                             className="block md:hidden"
                             width="24"

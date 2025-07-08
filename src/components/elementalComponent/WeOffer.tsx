@@ -20,9 +20,9 @@ const Card: React.FC<CardProps> = ({ icon: Icon, title, description }) => {
         <Icon />
       </div>
       <div className="">
-        <h4 className="text-xl font-semibold mb-4 text-[#2A2A2A] [font-family:Switzer] items-start text-start ">
+        <h3 className="text-xl font-semibold mb-4 text-[#2A2A2A] [font-family:Switzer] items-start text-start ">
           {title}
-        </h4>
+        </h3>
         <p className="text-sm text-[#595465] font-openSansHebrew items-start text-start">
           {description}
         </p>

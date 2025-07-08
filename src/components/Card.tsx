@@ -58,7 +58,7 @@ const Card: React.FC<CardProps> = ({
       </div>
 
       <div className={`flex gap-2 items-baseline ${titleSectionMargin}`}>
-        <h4 className={titleClasses}>{title}</h4>
+        <h3 className={titleClasses}>{title}</h3>
         <span className={experienceClasses}>{experience}</span>
       </div>
 
